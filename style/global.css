@@ -1,0 +1,73 @@
+:root {
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4F;
+  --yellow: #eabd5f;
+
+  --gray-100: #0d0e11;
+  --gray-200: #16181D;
+  --gray-300: #292C34;
+  --gray-400: #878EA1;
+  --gray-500: #C0C4CE;
+  --gray-600: #E2E4E9;
+
+  --font-asap: "Asap", sans-serif;
+  --font-inconsolata: "Inconsolata", monospace;
+  --font-maven: "Maven Pro", sans-serif;
+
+
+  --title-lg: 700 3.5rem/1.2 var(--font-asap);
+  --title-md: 700 1.5rem/1.2 var(--font-asap);
+  --title-sm: 700 1rem/1.2 var(--font-asap);
+
+  --subtitle: 1.25rem/1.2 var(--font-inconsolata);
+
+  --text-md: 1rem/1.4 var(--font-maven);
+  --text-sm: .875rem var(--font-maven);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-asap);
+  color: var(--gray-600);
+
+  background: var(--gray-200);
+}
+
+h1 {
+  font: var(--title-lg);
+}
+
+
+h2 {
+  font: var(--title-md);
+}
+
+h3 {
+  font: var(--title-sm);
+}
+
+p {
+  font: var(--text-sm);
+}
+
+.container {
+  max-width: 65rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-500);
+}
+
+.headline {
+  color: var(--red);
+  font: var(--subtitle);
+}

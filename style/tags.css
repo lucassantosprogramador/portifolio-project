@@ -1,0 +1,38 @@
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  margin-top: 5rem;
+
+
+  & a {
+    background-color: var(--gray-300);
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+  }
+}
+
+img[src*="GitHub"] {
+}
+
+img[src*="HTML"] {
+}
+
+img[src*="CSS"] {
+}
+
+img[src*="Javascript"] {
+}
+
+img[src*="React"] {
+}
+
+img[src*="Node"] {
+}

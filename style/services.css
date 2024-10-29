@@ -1,0 +1,48 @@
+#services-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3.5rem;
+
+  padding-block: 4.5rem;
+  background-color: var(--gray-100);
+
+  & header {
+    text-align: center;
+  }
+
+  .services {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  
+    .serviceCard {
+      border: 2px solid var(--gray-300);
+      border-radius: 1rem;
+      padding: 1.25rem;
+
+      & img {
+        width: 3rem;
+        aspect-ratio: 1/1;
+      }
+
+      & figcaption {
+        & h3 {
+          margin-block: 1.125rem .5rem
+        }
+      }
+    }
+  }
+}
+
+
+img[src*="Devices"] {
+}
+
+img[src*="HardDevices"] {
+}
+
+img[src*="Infinity"] {
+}

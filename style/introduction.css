@@ -1,0 +1,54 @@
+#introduction-bg {
+  background-image: url(../assets/img/Background_Intro.png);
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: relative;
+  
+  & .introduction-container {
+    max-width: 42.5rem;
+    
+    & header {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+
+      & .avatar {
+        width: 7rem;
+        aspect-ratio: 1/1;
+        border: 4px solid var(--red);
+        border-radius: 50%;
+        padding: 4px;
+
+        margin-bottom: 3.5rem;
+      }
+
+      & .title-introduction {
+
+        & p {
+          color: var(--gray-500);
+          font: var(--subtitle);
+          margin-bottom: .5rem;
+        }
+      }
+
+      & p {
+        color: var(--gray-400);
+      }
+    }
+
+    .arrowDouble {
+      display: grid;
+      justify-content: center;
+      margin-top: 5.875rem;
+    }
+  }
+
+}
+
