@@ -29,6 +29,8 @@
     }
 
     & .links {
+      display: grid;
+      gap: 1rem;
       & figure {
         display: flex;
         align-items: center;
@@ -44,10 +46,14 @@
       & figure::after {
         content: "";
         background-image: url(../assets/icon/ArrowUpRight.svg);
+        background-size: contain;
         width: 1.25rem;
         aspect-ratio: 1/1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: absolute;
-        right: ;
+        right: 20px;
       }
     }
   }
